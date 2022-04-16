@@ -1,4 +1,5 @@
 //Escreva um programa que leia um numero inteiro e positivo F e calcule o fatorial deste numero.
+
 #include <stdio.h>
 
 int main(){
