@@ -8,49 +8,48 @@ int main () {
   int e = 0;
 
   while (e<1){
-    printf("Digite um valor de 1 ate 7: ");
+    printf("Digite um valor de 1 ate 7 ou digite o valor 0 para sair: ");
     scanf("%d", &num);
-    printf("\nPara termina a execução digite 0.\n");
     
     switch(num){
 
       case 1:
-        printf("\nCorresponde á domingo\n\n");
+        printf("\n\t\tCorresponde á domingo\n\n");
         e=0;
       break;
 
       case 2:
-        printf("\nCorresponde á segunda-feira\n\n");
+        printf("\n\t\tCorresponde á segunda-feira\n\n");
         e=0;
       break;
 
       case 3:
-        printf("\nCorresponde á treça-feira\n\n");
+        printf("\n\t\tCorresponde á treça-feira\n\n");
         e=0;
       break;
 
       case 4:
-        printf("\nCorresponde á quarta-feira\n\n");
+        printf("\n\t\tCorresponde á quarta-feira\n\n");
         e=0;
       break;
 
       case 5:
-        printf("\nCorresponde á quinta-feira\n\n");
+        printf("\n\t\tCorresponde á quinta-feira\n\n");
         e=0;
       break;
 
       case 6:
-        printf("\nCorresponde á sexta-feira\n\n");
+        printf("\n\t\tCorresponde á sexta-feira\n\n");
         e=0;
       break;
 
       case 7:
-        printf("\nCorresponde á sábado\n\n");
+        printf("\n\t\tCorresponde á sábado\n\n");
         e=0;
       break;
 
       case 0:
-        printf("\nFim da execulção.\n\n");
+        printf("\n\t\tFim da execulção.\n\n");
         e=1;
       break;
     
