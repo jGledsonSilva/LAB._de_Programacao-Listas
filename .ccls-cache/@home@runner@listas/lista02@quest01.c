@@ -1,4 +1,8 @@
-//Implemente um programa que tenha como entrada um numero (1-7) que corresponde a um dos dias da semana e imprima na tela o nome do dia correspondente (domingo, segunda, terca, quarta, quinta, sexta, sabado). Se o numero lido nao estiver no intervalo 1-7, imprima: “Numero de dia nao valido”. O programa deve permanecer executando ate que o usuario tecle o numero 0. (Utilize obrigatoriamente teste no inıcio).
+/* Implemente um programa que tenha como entrada um numero (1-7) que corresponde a um dos dias
+da semana e imprima na tela o nome do dia correspondente (domingo, segunda, terca, quarta, quinta,
+sexta, sabado). Se o numero lido nao estiver no intervalo 1-7, imprima: “Numero de dia nao valido”. O
+programa deve permanecer executando ate que o usuario tecle o numero 0. (Utilize obrigatoriamente
+teste no inıcio). */
 
 #include <stdio.h>
 
