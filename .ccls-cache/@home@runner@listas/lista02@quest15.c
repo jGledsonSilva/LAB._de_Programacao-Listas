@@ -8,7 +8,7 @@ int main(){
 
   int i, a, x=3;
   for(i=0; i<8; i++){
-    a = (int)(pow(x,i)+0.5);
+    a = (int)(pow(x,2)+0.5);
     printf("O resultado é: %d\n", a);
   }
   return 0;
