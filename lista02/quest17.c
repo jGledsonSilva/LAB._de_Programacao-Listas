@@ -13,6 +13,5 @@ int main(){
     printf("Graus Celsius: %d.\nGraus Fahrenheit: %d.\n\n", c, f);
   }
   
-  
   return 0;
 }
