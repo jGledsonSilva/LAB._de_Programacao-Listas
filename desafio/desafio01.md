@@ -19,4 +19,4 @@ Observe a ilustração abaixo:
 
 • Para geração de números aleatórios, pesquise sobre a função rand().
 
-• Em cada rodada do programa, apresente os armários que est ̃ao ocupados e os que est ̃ao livres.
+• Em cada rodada do programa, apresente os armários que estão ocupados e os que est ̃ao livres.
