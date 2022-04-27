@@ -2,7 +2,6 @@
 menor e maior elemento do vetor fornecido. */ 
 
 #include <stdio.h>
-
 #define TAM 15
 
 int main(){
@@ -10,7 +9,6 @@ int main(){
   float vet[TAM];
   int maior=0, menor=0, soma;
 
-  // entrada de valor
   for(int i=0; i<TAM; i++){
     printf("Digite o valor: ");
     scanf("%f", &vet[i]);
