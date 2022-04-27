@@ -25,7 +25,6 @@ int main(){
   printf("maior valor: %d\n", maior);
   printf("menor valor: %d\n", menor);
 
-
   soma = maior + menor;
 
   printf("A soma do maio e o menor: %d\n\n", soma);
