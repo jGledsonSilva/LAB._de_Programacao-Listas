@@ -13,13 +13,15 @@ int main(){
 
     system("clear");
     
+    //Entrada de dados.
     printf("Digite a primeira string: ");
     scanf("%100[^\n]", str1);
     getchar();
 
     printf("Digite a segunda string: ");
     scanf("%100[^\n]", str2);
-
+    
+    //Processo.
     //////////////////strcat()////////////////////////
     //strcat(str1, str2);
     //////////////////////////////////////////////////
@@ -31,6 +33,7 @@ int main(){
     }
     str1[i+j]='\0';
 
+    //Saida.
     printf("string: %s.\n\n", str1);
 
     return 0;
