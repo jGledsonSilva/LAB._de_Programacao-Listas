@@ -12,21 +12,22 @@ int bin(int x) {
 int main() {
 
   unsigned char armario = 0;
-  int opcao, aleatori, desligar;
-  int quant_arma[8] = {8,7,6,5,4,3,2,1};
+  int opcao, aleatori, desligar, i;
+  int quant_arma[8] = {1,2,3,4,5,6,7,8};
   srand(time(NULL));
 
   do {
     printf("\t(1)Ocupar armario.\n\t(2)Liberar armario.\n\t(3)Sair.");
-    printf("\n\nEscolha uma das opções:");
+    printf("\n\nEscolha uma das opcoes:");
     scanf("%d", &opcao);
     switch (opcao) {
       case 1:
         do{
-          aleatori = rand() % 8;
+        //for(i=0; i<8; i++);
+          quant_arma[i] = rand() % 8;
         }while(quant_arma[aleatori] == 0);
-        printf("\n%dº ", quant_arma[aleatori]);        
-        switch (quant_arma[aleatori]){
+        printf("\n%dº ", quant_arma[i]);        
+        switch (quant_arma[i]){
           case 1:
             armario |= 128;
           break;
@@ -55,7 +56,7 @@ int main() {
         quant_arma[aleatori] = 0;
         printf("Armario: %d\n",bin(armario));
         if(bin(armario) == 11111111)
-          printf("\ntodos os armários estão ocupados.\n\n");
+          printf("\ntodos os armarios estao ocupados.\n\n");
         continue;
       break;
 
