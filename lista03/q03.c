@@ -8,6 +8,8 @@ int main(){
     char str[100];
     int i;
 
+    system("clear");
+
     printf("Digite a string: ");
     scanf("%100[^\n]", str);
 

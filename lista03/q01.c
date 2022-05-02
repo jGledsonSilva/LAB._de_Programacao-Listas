@@ -9,6 +9,8 @@ int main(){
   float vet[TAM];
   int maior=0, menor=0, soma;
 
+  system("clear");
+
   for(int i=0; i<TAM; i++){
     printf("Digite o valor: ");
     scanf("%f", &vet[i]);
