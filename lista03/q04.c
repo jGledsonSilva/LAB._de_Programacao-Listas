@@ -4,20 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void compara(char* i, char* j){
-    int result=0;
-    while(*i!='\0' || *j!='\0'){
-        if(*i == *j){
-            i++;
-            j++;
-        }else if((*i == '\0' && *j != '\0') || (*i != '\0' && *j == '\0') || *i != *j){
-            result=1;
-            puts("As duas strings nao sao iguais.");
-            break;
-            }
-    }
-    if(result==0) puts("As duas strings sao iguais.");
-}
+void compara(char *i, char *j);
 
 int main(){
 
@@ -39,4 +26,19 @@ int main(){
     compara(str1, str2);
 
     return 0;
+}
+
+void compara(char* i, char* j){
+    int result=0;
+    while(*i!='\0' || *j!='\0'){
+        if(*i == *j){
+            i++;
+            j++;
+        }else if((*i == '\0' && *j != '\0') || (*i != '\0' && *j == '\0') || *i != *j){
+            result=1;
+            puts("As duas strings nao sao iguais.");
+            break;
+            }
+    }
+    if(result==0) puts("As duas strings sao iguais.");
 }
