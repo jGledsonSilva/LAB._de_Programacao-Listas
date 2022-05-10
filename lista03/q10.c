@@ -5,18 +5,15 @@
 #include <time.h>
 
 
+#define t 3
 #define M 10
 
 int main(){
   
-  int t, x, cont;
+  int x, cont, m[t][t];
   srand(time(NULL));
   
   system("clear");
-
-  printf("Digite um valor do tamanho da matriz quadrada: ");
-  scanf("%d", &t);
-  int m[t][t];
 
   printf("\nDigite um valor inteiro: ");
   scanf("%d", &x);
