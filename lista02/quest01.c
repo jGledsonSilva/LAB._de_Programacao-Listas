@@ -59,6 +59,7 @@ int main () {
     
       default: printf("\n\tNenhuma opção selencionada\n\n");
       e=0;
+      
     }    
   }
   return 0;
