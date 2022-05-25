@@ -1,3 +1,6 @@
+/* Escreva um programa que adicione dois números usando ponteiros. Além do valor da soma, imprima
+também o endereço de memória onde o valor resultante dessa soma está armazenado. */ 
+
 #include <stdio.h>
 
 int main(){
