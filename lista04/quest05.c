@@ -16,7 +16,7 @@ int main(){
     vstr = str;
 
     printf("Digite a string: ");
-    scanf("%100[^\n]", vstr);
+    scanf("%[^\n]", vstr);
 
     for (i = 0; *(vstr + i) != '\0'; i++);    
 
