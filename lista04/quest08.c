@@ -14,10 +14,10 @@ int main(){
     system("clear");system("clear");
 
     pstr = str;
-    pca = ca;
+    pca = &ca;
 
     printf("Digite a primeira string: ");
-    scanf("%100[^\n]", pstr);
+    scanf("%[^\n]", pstr);
     getchar();
 
     printf("Digite um caracter: ");
