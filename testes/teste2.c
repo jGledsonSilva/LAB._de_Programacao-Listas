@@ -22,31 +22,32 @@ int main(int argc, char *argv[]){
     srand(time(NULL));
     for (int i = 0; i < tam; i++){
         *(pa + i) = rand() % 100;
-        tpar = sizeof(*pa);
     }
 
     printf("o vetor A: ");
     for (int i = 0; i < tam; i++){
-        printf("%d ", *(pa + i));
+        printf("[%d]", *(pa + i));
     }puts("");
 
 
     for (int i = 0; i < tam; i++){
         if(*(pa + i) % 2 == 0){
             *(pb + i) = *(pa + i);
+            //tpar++;
             printf("%d ", *(pa + i));
         }
-        else{
-            printf("\nnao tem valor par!\n\n");
-            exit(1);
-        }
+        //else{
+        //    printf("\nnao tem valor par!\n\n");
+        //    exit(1);
+        //}
         *(pb + i) = tpar;
     }
 
     printf("\no vetor B: ");
-    for (int i = 0; i < tam; i++){
+    for (int i = 0; i <= tam; i++){
+        //printf("%d ", *(pb + i));
         if(*(pb + i) != tpar){
-            printf("%d ", *(pb + i));
+            printf("[%d]", *(pb + i));
         }
     }puts("");
 
