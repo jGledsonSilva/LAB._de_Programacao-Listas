@@ -25,9 +25,9 @@ int main(){
     imprimir(v, TAM);
     puts("");
 
-    printf("\ndigite o valor T: ");
-    scanf("%d", &t);
-    //t = rand() % ta;
+    //printf("\ndigite o valor T: ");
+    //scanf("%d", &t);
+    t = rand() % ta;
 
     printf("O valor T: %d\n\n", t);
 
@@ -42,9 +42,9 @@ int main(){
 
 void preencherVetor(int *pv, int t){
     for (int i = 0; i < t; i++){
-        printf("digite o valor: ");
-        scanf("%d", (pv + i));
-        //*(pv + i) = rand() % m;
+        //printf("digite o valor: ");
+        //scanf("%d", (pv + i));
+        *(pv + i) = rand() % ta;
     }
 }
 
