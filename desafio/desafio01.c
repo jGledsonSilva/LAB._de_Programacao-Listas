@@ -23,7 +23,7 @@ int main() {
     switch (opcao) {
       case 1:
         do{
-        //for(i=0; i<8; i++);
+          for(i=0; i<8; i++);
           quant_arma[i] = rand() % 8;
         }while(quant_arma[aleatori] == 0);
         printf("\n%dº ", quant_arma[i]);        
@@ -55,7 +55,7 @@ int main() {
         }
         quant_arma[aleatori] = 0;
         printf("Armario: %d\n",bin(armario));
-        if(bin(armario) == 11111111)
+        if(bin(armario) == '11111111')
           printf("\ntodos os armarios estao ocupados.\n\n");
         continue;
       break;
@@ -89,7 +89,7 @@ int main() {
             armario &= ~1; 
           break;
         }
-        if(bin(armario) == 00000000)
+        if(bin(armario) == '00000000')
           printf("\ntodos os armários estão livres.\n\n");
         printf("Armario: %d\n",bin(armario));
       break;

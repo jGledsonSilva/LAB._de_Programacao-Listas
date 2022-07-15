@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+//#define TAAM 100
 #define TAM 10
 #define ta 100
 
@@ -19,23 +20,25 @@ int main(){
 
     system("clear");
 
-    preencherVetor(v, TAM);
+    for (int i = 0; i < TAAM; i++){
+        preencherVetor(v, TAM);
 
-    printf("o vetor V: ");
-    imprimir(v, TAM);
-    puts("");
+        printf("o vetor V: ");
+        imprimir(v, TAM);
+        puts("");
 
-    //printf("\ndigite o valor T: ");
-    //scanf("%d", &t);
-    t = rand() % ta;
+        //printf("\ndigite o valor T: ");
+        //scanf("%d", &t);
+        t = rand() % ta;
 
-    printf("O valor T: %d\n\n", t);
+        printf("O valor T: %d\n\n", t);
 
-    vetork(v, vk, &t, TAM);
+        vetork(v, vk, &t, TAM);
 
-    printf("o vetor K: ");
-    imprimir(vk, TAM);
-    puts("");
+        printf("o vetor K: ");
+        imprimir(vk, TAM);
+        printf("\n----------------------------------------------------------\n");
+    }
 
     return 0;
 }
