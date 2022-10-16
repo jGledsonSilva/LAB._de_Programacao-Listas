@@ -6,7 +6,7 @@ de ordenação por seleção e outra pelo método bolha (bubble sort). */
 #include <stdlib.h>
 #include <time.h>
 
-#define TAM 100
+#define TAM 5
 
 int main(){
 
@@ -37,7 +37,7 @@ int main(){
         }
     }
 
-    printf("\n\n\tVetor invertido\n");
+    printf("\n\n\tVetor ordenado\n");
     for (j=0; j<TAM; j++){
         printf("[%d]",v[j]);
     }
